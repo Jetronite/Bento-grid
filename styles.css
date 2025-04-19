@@ -6,3 +6,54 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+body {
+    width: 100vh;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 32px;
+}
+
+/* the first row is 1 to 1
+the next ones are shared 4 to 3 to 3
+and finally 7 to 3 */
+
+
+div {
+    background-color: aqua;
+    border-radius: 1em;
+}
+
+.card-1 {
+    background-color: rgb(118, 81, 220);
+}
+
+.card-2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.card-3 {
+    background-color: rgb(255, 204, 105);
+}
+
+.card-4 {
+    background-color: rgb(220, 209, 252)
+}
+
+.card-5 {
+    background-color: rgb(118, 81, 220);
+}
+
+.card-6 {
+    background-color: rgb(255, 225, 225);
+}
+
+.card-7-1 {
+    background-color: rgb(250, 238, 226)
+}
+
+.card-8 {
+    background-color: rgb(255, 204, 105);
+}
