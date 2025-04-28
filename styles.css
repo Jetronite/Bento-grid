@@ -16,11 +16,6 @@ body {
     gap: 32px;
 }
 
-/* the first row is 1 to 1
-the next ones are shared 4 to 3 to 3
-and finally 7 to 3 */
-
-
 div {
     background-color: aqua;
     border-radius: 1em;
@@ -61,6 +56,21 @@ div {
 div p {
     font-size: 60px;
 }
+
+.card-1m-3d p, .card-5m-7d p {
+    color: #FFFFFF;
+}
+
+.card-1m-3d p .a {
+    color: rgb(255, 204, 105);
+}
+
+.card-1m-3d p .b {
+    font-style: italic;
+}
+
+
+
 
 @media screen and (min-width: 992px) {
     body {
