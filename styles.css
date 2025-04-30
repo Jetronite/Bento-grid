@@ -11,8 +11,8 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .ben-grid {
@@ -82,11 +82,12 @@ div p {
     color: rgb(118, 81, 220);
 }
 
-@media (max-width: 320px) {
-    div {
+@media (min-width: 320px) and (max-width: 1399px) {
+    .ben-grid div {
         display: flex;
         flex-direction: column;
-        min-width: max-content;
+        justify-content: center;
+        align-items: center;
     }    
 }
 
@@ -135,6 +136,5 @@ div p {
         grid-column: 4;
         grid-row: 1 / span 7;
     }
-
 }
 
